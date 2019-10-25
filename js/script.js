@@ -9,4 +9,15 @@ function outputNames(){
     var date=parseFloat(document.getElementById("Date").value);
     var month=parseFloat(document.getElementById("Month").value);
     var year=parseFloat(document.getElementById("Year").value);
+    //Give alert if the input data is outside the range
+    if ( year < 0 || year > 2020){
+        alert("Enter a valid year")
+        return false;
+    } else if (month < 0 || month > 12){
+        alert("Enter a valid month number");
+        return false;
+    } else if (date < 0 || date > 31){
+        alert("Enter a valid date");
+    }
+
     
