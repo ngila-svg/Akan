@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Carter+One|Fredericka+the+Great|Rancho&display=swap");
 body {
     background-color:darkcyan;
 
@@ -19,4 +22,7 @@ h1 {
 }
 button{
     margin-top:10px;
+}
+.container-fluid{
+    border-image: url();
 }
