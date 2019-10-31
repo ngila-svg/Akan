@@ -23,9 +23,7 @@ h1 {
 button{
     margin-top:10px;
 }
-.container-fluid{
-    border-image: url();
-}
+
 #v{
     font-family: fantasy;
     font-style: italic;
