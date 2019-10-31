@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Cherry+Swash|Dancing+Script&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="js/script.js"></script>
+    <title>Akan Names</title>
+</head>
+<body>
+        <h1 class="display-4" id="v">Akan Names</h1>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p><stong>Akan people originate from ancient Ghana. The akan community frequently name their children after the day of the week 
+                    they were born and the order in which they were born.Below is a calculator that can show you, wich day of the week you have been named after.</strong></p>
+                    <p2>This web application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. </p2>
+            </div>
+        </div>
+        <form>
+            <fieldset>
+                <legend><h3>Fill in the details</h3></legend>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <label>Year</label>
+                        <input id="Year" type="number" class="form-control" placeholder="Eg 1992" maxlength="4">
+                    </div>
+                    <div class="col-lg-4">
+                        <label>Month</label>
+                        <input id="Month" type="number" class="form-control" placeholder="Eg 12">
+                    </div>
+                    <div class="col-lg-4">
+                         <label>Date</label>
+                        <input id="Date" type="number" class="form-control" placeholder="Eg 30">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-2">
+                        <label>Gender<label>
+                    </div>                
+                    <div class="col-sm-10">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" id="male" type="radio" value="male">
+                            <label class="form-check-label">Male</label>
+                            <input class="form-check-input" id="female" type="radio" value="female">
+                            <label class="form-check-label">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                    <button id="submit" type="button" class="btn btn-success" onclick="outputNames()">Submit</button>
+                    </div>
+                </div>
+                <div id="display"></div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="licence">
+        <p> <strong> Wilfred Musyoka| Copyright &copy; 2019 All right reserved </strong></p>
+    </div>
+</body>
+
+</html>
